@@ -13,6 +13,7 @@ export interface LogoProps extends Pick<ImageProps, 'style' | 'alt' | 'className
  */
 export default function Logo({ srcs, alt, ...rest }: LogoProps) {
   const [, refresh] = useState<number>(0)
+  console.log('TEST')
 
   const src: string | undefined = srcs.find(src => !BAD_SRCS[src])
 

@@ -117,8 +117,8 @@ export const PIT_SETTINGS: { [chainId in ChainId]: Record<string, string> } = {
   [ChainId.KOVAN]: { name: '', path: '' },
   [ChainId.BSC_MAINNET]: { name: 'CobraDen', path: '/cobraDen' },
   [ChainId.BSC_TESTNET]: { name: 'CobraDen', path: '/cobraDen' },
-  [ChainId.HARMONY_MAINNET]: { name: 'ViperPit', path: '/viperPit' },
-  [ChainId.HARMONY_TESTNET]: { name: 'ViperPit', path: '/viperPit' }
+  [ChainId.HARMONY_MAINNET]: { name: 'ChakraPit', path: '/viperPit' },
+  [ChainId.HARMONY_TESTNET]: { name: 'ChakraPit', path: '/viperPit' }
 }
 
 export const WEB_INTERFACES: { [chainId in ChainId]: string[] } = {

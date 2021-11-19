@@ -111,15 +111,15 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://info.viper.exchange">
+          <MenuItem id="link" href="https://info.viper.exchange/token/0x60b4568120471bbff3dec520ba6609def89001c3">
             <PieChart size={14} />
             Analytics
           </MenuItem>
-          <MenuItem id="link" href="https://discord.viper.exchange">
+          <MenuItem id="link" href="https://discord.gg/uraDa24E">
             <MessageSquare size={14} />
             Discord
           </MenuItem>
-          <MenuItem id="link" href="https://t.me/VenomDAO">
+          <MenuItem id="link" href="https://t.me/kiba_harmony">
             <Send size={14} />
             Telegram
           </MenuItem>

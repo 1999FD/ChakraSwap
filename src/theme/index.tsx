@@ -231,6 +231,11 @@ export function harmonyColors(darkMode: boolean): Colors {
     text5: darkMode ? '#2C2F36' : '#EDEEF2',
 
     // backgrounds / greys
+    //bg1: Swap
+    //bg2: Background
+    //bg3: Button Color
+    //bg4: Menu and theme button color
+    //bg5: Pools gradient
     bg1: darkMode ? '#212429' : '#FFFFFF',
     bg2: darkMode ? '#2C2F36' : '#F7F8FA',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
