@@ -6,16 +6,15 @@
 
 An open source interface for Uniswap -- a protocol for decentralized exchange of Ethereum tokens.
 
-- Website: [uniswap.org](https://uniswap.org/)
-- Interface: [app.uniswap.org](https://app.uniswap.org)
-- Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@UniswapProtocol](https://twitter.com/UniswapProtocol)
-- Reddit: [/r/Uniswap](https://www.reddit.com/r/Uniswap/)
-- Email: [contact@uniswap.org](mailto:contact@uniswap.org)
-- Discord: [Uniswap](https://discord.gg/FCfyBSbCU5)
-- Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
+- Website: https://kibaharmony.com/ (Our community project)
+- Docs: No Docs/Whitepaper as of yet 
+- Twitter: https://twitter.com/KibaHarmony
+- Reddit: No Reddit as of yet
+- Email: kibaone24@gmail.com
+- Discord: https://discord.gg/FRyrbPJv2c
 
-## Accessing the Venomswap Interface
+
+## Accessing the ChakraSwap Interface
 
 To access the Venomswap Interface, use an IPFS gateway link from the
 [latest release](https://github.com/Uniswap/uniswap-interface/releases/latest), 
@@ -24,8 +23,8 @@ or visit [app.uniswap.org](https://app.uniswap.org).
 ## Listing a token
 
 Please see the
-[@venomswap/default-token-list](https://github.com/uniswap/default-token-list) 
-repository.
+[@chakraswap/default-token-list](https://github.com/uniswap/default-token-list) 
+repository. 
 
 ## Development
 
