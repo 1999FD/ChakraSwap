@@ -94,7 +94,7 @@ export default function GovTokenBalanceContent({ setShowUniBalanceModal }: { set
         <CardNoise />
         <CardSection gap="md">
           <RowBetween>
-            <TYPE.white color="white">Your {govToken?.symbol} Breakdown</TYPE.white>
+            <TYPE.white color="white">Your Chakra Breakdown:</TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUniBalanceModal(false)} />
           </RowBetween>
         </CardSection>
