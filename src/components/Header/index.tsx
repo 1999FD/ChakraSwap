@@ -425,7 +425,7 @@ export default function Header() {
                     </TYPE.white>
                   </HideSmall>
                 )}
-                {govToken?.symbol}
+                CHAKRA
               </UNIAmount>
               <CardNoise />
             </UNIWrapper>
