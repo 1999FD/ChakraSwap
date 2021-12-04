@@ -214,10 +214,10 @@ export default function Pit({
               <RowBetween>
                 <div>
                   <TYPE.black>
-                    Your x{govToken?.symbol} Balance
+                    Your xCHAKRA Balance
                     {govTokenPitTokenRatio && (
                       <TYPE.italic display="inline" marginLeft="0.25em">
-                        (1 x{govToken?.symbol} = {govTokenPitTokenRatio.toSignificant(4)} {govToken?.symbol})
+                        (1 xCHAKRA = {govTokenPitTokenRatio.toSignificant(4)} CHAKRA)
                       </TYPE.italic>
                     )}
                   </TYPE.black>
