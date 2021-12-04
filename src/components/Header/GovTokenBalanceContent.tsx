@@ -94,7 +94,7 @@ export default function GovTokenBalanceContent({ setShowUniBalanceModal }: { set
         <CardNoise />
         <CardSection gap="md">
           <RowBetween>
-            <TYPE.white color="white">Your {govToken?.symbol} Breakdown</TYPE.white>
+            <TYPE.white color="white">Your Chakra Breakdown:</TYPE.white>
             <StyledClose stroke="white" onClick={() => setShowUniBalanceModal(false)} />
           </RowBetween>
         </CardSection>
@@ -208,11 +208,11 @@ export default function GovTokenBalanceContent({ setShowUniBalanceModal }: { set
         <CardSection gap="sm">
           <AutoColumn gap="md">
             <RowBetween>
-              <TYPE.white color="white">{govToken?.symbol} in circulation:</TYPE.white>
+              <TYPE.white color="white">CHAKRA in circulation:</TYPE.white>
               <TYPE.white color="white">{totalUnlockedSupply?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
             <RowBetween>
-              <TYPE.white color="white">{govToken?.symbol} total supply:</TYPE.white>
+              <TYPE.white color="white">CHAKRA total supply:</TYPE.white>
               <TYPE.white color="white">{totalSupply?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
             </RowBetween>
           </AutoColumn>
@@ -223,18 +223,18 @@ export default function GovTokenBalanceContent({ setShowUniBalanceModal }: { set
             <CardSection gap="sm">
               <AutoColumn gap="md">
                 <RowBetween>
-                  <TYPE.white color="white">{govToken?.symbol} price:</TYPE.white>
+                  <TYPE.white color="white">CHAKRA price:</TYPE.white>
                   <TYPE.white color="white">${govTokenPrice?.toFixed(4) ?? '-'}</TYPE.white>
                 </RowBetween>
                 {circulatingMarketCap && (
                   <RowBetween>
-                    <TYPE.white color="white">{govToken?.symbol} circ. market cap:</TYPE.white>
+                    <TYPE.white color="white">CHAKRA circ. market cap:</TYPE.white>
                     <TYPE.white color="white">${circulatingMarketCap?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
                   </RowBetween>
                 )}
                 {totalMarketCap && (
                   <RowBetween>
-                    <TYPE.white color="white">{govToken?.symbol} total market cap:</TYPE.white>
+                    <TYPE.white color="white">CHAKRA total market cap:</TYPE.white>
                     <TYPE.white color="white">${totalMarketCap?.toFixed(0, { groupSeparator: ',' })}</TYPE.white>
                   </RowBetween>
                 )}
