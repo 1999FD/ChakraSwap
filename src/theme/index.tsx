@@ -1,4 +1,4 @@
-import { transparentize } from 'polished'
+// import { transparentize } from 'polished'
 import React, { useMemo } from 'react'
 import styled, {
   ThemeProvider as StyledComponentsThemeProvider,
@@ -430,12 +430,8 @@ html {
 
 body {
   min-height: 100vh;
-  background-position: 0 -30vh;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${transparentize(0.9, theme.primary1)} 0%, ${transparentize(
-      1,
-      theme.bg1
-    )} 100%)`};
+  background-image: url("https://user-images.githubusercontent.com/94655134/144687544-f09a1bb5-c383-41a8-b6bd-9fe14704effd.jpg");
 }
 `
