@@ -30,7 +30,7 @@ const ModalUpper = styled(DataCard)`
   background: radial-gradient(
     76.02% 75.41% at 1.84% 0%,
     ${({ theme }) => theme.tokenButtonGradientStart} 0%,
-    #000 100%
+    #630101 100%
   );
   padding: 0.5rem;
 `

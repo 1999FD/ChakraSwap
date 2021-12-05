@@ -218,7 +218,7 @@ const StyledNavLink = styled(NavLink).attrs({
   outline: none;
   cursor: pointer;
   text-decoration: none;
-  color: ${({ theme }) => theme.text2};
+  color: #565a69;
   font-size: 1rem;
   width: fit-content;
   margin: 0 12px;
@@ -227,7 +227,7 @@ const StyledNavLink = styled(NavLink).attrs({
   &.${activeClassName} {
     border-radius: 12px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text1};
+    color: black;
   }
 
   :hover,

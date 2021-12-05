@@ -62,17 +62,17 @@ export function defaultColors(darkMode: boolean): Colors {
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2172E5' : '#ff007a',
+    primary1: darkMode ? '#D32228' : '#d32228',
     primary2: darkMode ? '#3680E7' : '#FF8CC3',
     primary3: darkMode ? '#4D8FEA' : '#FF99C9',
     primary4: darkMode ? '#376bad70' : '#F6DDE8',
-    primary5: darkMode ? '#153d6f70' : '#FDEAF1',
+    primary5: darkMode ? '#FDEAF1' : '#FDEAF1',
 
     // color text
-    primaryText1: darkMode ? '#6da8ff' : '#ff007a',
+    primaryText1: darkMode ? '#d32228' : '#d32228',
 
     // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#ff007a',
+    secondary1: darkMode ? '#D32228' : '#d32228',
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
     secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 
@@ -90,206 +90,21 @@ export function defaultColors(darkMode: boolean): Colors {
     // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
 
     // Added:
-    tokenButtonGradientStart: '#008c6b',
-    tokenButtonGradientEnd: '#005224',
-    customCardGradientStart: '#008c6b',
-    customCardGradientEnd: '#00c09c'
-  }
-}
-
-export function viperColors(darkMode: boolean): Colors {
-  return {
-    // base
-    white,
-    black,
-
-    // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
-
-    // backgrounds / greys
-    bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
-    bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
-
-    //specialty colors
-    modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
-
-    //primary colors
-    primary1: darkMode ? '#669999' : '#00c09c',
-    primary2: darkMode ? '#3680E7' : '#FF8CC3',
-    primary3: darkMode ? '#4D8FEA' : '#FF99C9',
-    primary4: darkMode ? '#376bad70' : '#F6DDE8',
-    primary5: darkMode ? '#153d6f70' : '#e8f4e5',
-
-    // color text
-    primaryText1: darkMode ? '#669999' : '#00c09c',
-
-    // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#ff007a',
-    secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-    secondary3: darkMode ? '#17000b26' : '#FDEAF1',
-
-    // other
-    red1: '#FD4040',
-    red2: '#F82D3A',
-    red3: '#D60000',
-    green1: '#27AE60',
-    yellow1: '#FFE270',
-    yellow2: '#F3841E',
-    blue1: '#2172E5',
-
-    // dont wanna forget these blue yet
-    // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
-    // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
-
-    // Added:
-    tokenButtonGradientStart: '#008c6b',
-    tokenButtonGradientEnd: '#005224',
-    customCardGradientStart: '#008c6b',
-    customCardGradientEnd: '#00c09c'
-  }
-}
-
-export function bscColors(darkMode: boolean): Colors {
-  return {
-    // base
-    white,
-    black,
-
-    // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
-
-    // backgrounds / greys
-    bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
-    bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#565A69' : '#888D9B',
-
-    //specialty colors
-    modalBG: darkMode ? 'rgba(0,0,0,42.5)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
-
-    //primary colors
-    primary1: darkMode ? '#2172E5' : '#ffad00',
-    primary2: darkMode ? '#3680E7' : '#FFE08C',
-    primary3: darkMode ? '#4D8FEA' : '#F2CB61',
-    primary4: darkMode ? '#376bad70' : '#FFE08C',
-    primary5: darkMode ? '#153d6f70' : '#FAECC5',
-
-    // color text
-    primaryText1: darkMode ? '#6da8ff' : '#ffad00',
-
-    // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#ffad00',
-    secondary2: darkMode ? '#17000b26' : '#FFE08C',
-    secondary3: darkMode ? '#17000b26' : '#FAECC5',
-
-    // other
-    red1: '#FF6871',
-    red2: '#F82D3A',
-    red3: '#D60000',
-    green1: '#27AE60',
-    yellow1: '#FFE270',
-    yellow2: '#F3841E',
-    blue1: '#2172E5',
-
-    // dont wanna forget these blue yet
-    // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
-    // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
-
-    // Added:
-    tokenButtonGradientStart: '#ffbb00',
-    tokenButtonGradientEnd: '#c99212',
-    customCardGradientStart: '#001d4c',
-    customCardGradientEnd: '#000024'
-  }
-}
-
-export function harmonyColors(darkMode: boolean): Colors {
-  return {
-    // base
-    white,
-    black,
-
-    // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
-
-    // backgrounds / greys
-    //bg1: Swap
-    //bg2: Background
-    //bg3: Button Color
-    //bg4: Menu and theme button color
-    //bg5: Pools gradient
-    bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#F7F8FA',
-    bg3: darkMode ? '#40444F' : '#EDEEF2',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
-
-    //specialty colors
-    modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
-
-    //primary colors
-    primary1: darkMode ? '#2172E5' : '#00AEE9',
-    primary2: darkMode ? '#3680E7' : '#69FABD',
-    primary3: darkMode ? '#4D8FEA' : '#00c5eb',
-    primary4: darkMode ? '#376bad70' : '#bcecfd',
-    primary5: darkMode ? '#153d6f70' : '#d9f4fd',
-
-    // color text
-    primaryText1: darkMode ? '#6da8ff' : '#00AEE9',
-
-    // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#00AEE9',
-    secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-    secondary3: darkMode ? '#17000b26' : '#FDEAF1',
-
-    // other
-    red1: '#FD4040',
-    red2: '#F82D3A',
-    red3: '#D60000',
-    green1: '#27AE60',
-    yellow1: '#FFE270',
-    yellow2: '#F3841E',
-    blue1: '#2172E5',
-
-    // dont wanna forget these blue yet
-    // blue4: darkMode ? '#153d6f70' : '#C4D9F8',
-    // blue5: darkMode ? '#153d6f70' : '#EBF4FF',
-
-    // Added:
-    tokenButtonGradientStart: '#008c6b',
-    tokenButtonGradientEnd: '#005224',
-    customCardGradientStart: '#008c6b',
-    customCardGradientEnd: '#00c09c'
+    tokenButtonGradientStart: '#d32228',
+    tokenButtonGradientEnd: '#660404',
+    customCardGradientStart: '#d32228',
+    customCardGradientEnd: '#660404'
   }
 }
 
 export function colors(blockchain: Blockchain, darkMode: boolean): Colors {
   switch (blockchain) {
     case Blockchain.BINANCE_SMART_CHAIN:
-      return bscColors(darkMode)
+      return defaultColors(darkMode)
     case Blockchain.HARMONY:
-      return harmonyColors(darkMode)
+      return defaultColors(darkMode)
     default:
-      return viperColors(darkMode)
+      return defaultColors(darkMode)
   }
 }
 
@@ -432,6 +247,6 @@ body {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://user-images.githubusercontent.com/94655134/144687544-f09a1bb5-c383-41a8-b6bd-9fe14704effd.jpg");
+  background-image: url("https://user-images.githubusercontent.com/94655134/144763271-8aaec95a-d734-4172-8f96-14c46e05bfe7.jpg");
 }
 `
