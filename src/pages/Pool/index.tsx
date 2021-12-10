@@ -172,7 +172,7 @@ export default function Pool() {
           <AutoColumn gap="lg" style={{ width: '100%' }}>
             <TitleRow style={{ marginTop: '1rem' }} padding={'0'}>
               <HideSmall>
-                <TYPE.mediumHeader style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
+                <TYPE.mediumHeader color={theme.text6} style={{ marginTop: '0.5rem', justifySelf: 'flex-start' }}>
                   Your liquidity
                 </TYPE.mediumHeader>
               </HideSmall>
@@ -241,7 +241,7 @@ export default function Pool() {
             )}
 
             <AutoColumn justify={'center'} gap="md">
-              <Text textAlign="center" fontSize={14} style={{ padding: '.5rem 0 .5rem 0' }}>
+              <Text color={theme.text6} textAlign="center" fontSize={14} style={{ padding: '.5rem 0 .5rem 0' }}>
                 {hasV1Liquidity ? 'Viperswap V1 liquidity found!' : "Don't see a pool you joined?"}{' '}
                 <StyledInternalLink id="import-pool-link" to={hasV1Liquidity ? '/migrate/v1' : '/find'}>
                   {hasV1Liquidity ? 'Migrate now.' : 'Import it.'}
