@@ -1220,6 +1220,11 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@chakra-swap/default-token-list@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@chakra-swap/default-token-list/-/default-token-list-1.0.0.tgz#e2031467d5166c13865d03711a80bc93b0507871"
+  integrity sha512-QUfpn6WQr71quyei5ncf+Ddtyt8yJonmd4XerGsNDYNIe+zOccY0tKGkKhysiRHtsPG3OCANvhPkAUvu53QsXQ==
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -3210,7 +3215,7 @@
   resolved "https://registry.yarnpkg.com/@venomswap/core/-/core-1.0.0.tgz#f1336702e8ecce6b79b06212220da43a34b3749c"
   integrity sha512-cd4+e5KKH7QmSjMhe50lty35eHuZVTh9YYnkWPdQPe6KG3R5P5JE3LFliwNLpuV4jWEYYRlEa3OaG3ie+BlYrg==
 
-"@venomswap/default-token-list@^2.0.0", "@venomswap/default-token-list@^2.1.0":
+"@venomswap/default-token-list@^2.0.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@venomswap/default-token-list/-/default-token-list-2.1.0.tgz#42675d6a938ed394276ada4eba6f01950d0901f4"
   integrity sha512-3VfaxDrv6o9WRqD1LxziUY14A68KMtx4qEOe4hWI+VKdZ8FrmE1D8JqF5IL4joIhFq1x3sYz9xruKjcXJhfZhQ==
