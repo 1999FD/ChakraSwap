@@ -129,6 +129,6 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@chakra-swap/default-token-list": "1.0.0"
+    "@chakra-swap/default-token-list": "1.0.2"
   }
 }
