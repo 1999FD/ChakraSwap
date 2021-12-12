@@ -23,7 +23,7 @@ or visit [app.uniswap.org](https://app.uniswap.org).
 ## Listing a token
 
 Please see the
-[@chakraswap/default-token-list](https://github.com/uniswap/default-token-list) 
+[@chakraswap/default-token-list](https://github.com/1999FD/chakraswap-default-token-list) 
 repository. 
 
 ## Development
