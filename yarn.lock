@@ -1220,10 +1220,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chakra-swap/default-token-list@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@chakra-swap/default-token-list/-/default-token-list-1.0.0.tgz#e2031467d5166c13865d03711a80bc93b0507871"
-  integrity sha512-QUfpn6WQr71quyei5ncf+Ddtyt8yJonmd4XerGsNDYNIe+zOccY0tKGkKhysiRHtsPG3OCANvhPkAUvu53QsXQ==
+"@chakra-swap/default-token-list@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@chakra-swap/default-token-list/-/default-token-list-1.0.2.tgz#bd12c5e267a1c25106f9ccc298de429adc02cd31"
+  integrity sha512-OAcxuHvdgQZJwBWchc4GRKRwEXfJ0QmHNv2GXpMCB8fOBH6jXzOgdE41fb4ndO2TESA1YZzNwnuZgNY7XY9iFg==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
